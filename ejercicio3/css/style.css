@@ -7,7 +7,7 @@
         }
 
         .semaforo {
-            width: 600px;
+            width: 500px;
             margin: 30 auto;
         }
 
@@ -50,15 +50,16 @@
          .semaforo .cuerpo div:last-child{
              background-color: green;
         }
-         .semaforo .cuerpo div:nth-child{
+         .semaforo .cuerpo div:nth-child(2){
             background-color: yellow;
         }
-         .semaforo .pata {
+         .semaforo .pie {
              height: 400px;
              width: 30px;
         }
-         .semaforo>div: :last-child{
+         .semaforo>div:last-child{
              width: 70%;
              height: 30px;
         }
+
 </style>
