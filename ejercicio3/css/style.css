@@ -1,0 +1,64 @@
+<style>
+    
+        .cuadrado {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        .semaforo {
+            width: 600px;
+            margin: 30 auto;
+        }
+
+        .semaforo>div {
+            background-color: lawngreen;
+        }
+
+        .semaforo div {
+            margin: 0 auto;
+        }
+
+        .semaforo .semicirculo {
+            width: 30%;
+            height: 25px;
+            border-radius: 20px 20px 0px 0px;
+        }
+
+        .semaforo .copete {
+            width: 50%;
+            height: 30px;
+        }
+
+        .semaforo .cuerpo {
+            width: 70%;
+            padding: 20px;
+
+        }
+
+        .semaforo .cuerpo div {
+            width: 100%;
+            height: 100px;
+            border-radius: 50%;
+            background-color: red;
+            margin-bottom: 100px;
+
+        }
+        .semaforo .cuerpo div:first-child{
+            background-color: red;
+        }
+         .semaforo .cuerpo div:last-child{
+             background-color: green;
+        }
+         .semaforo .cuerpo div:nth-child{
+            background-color: yellow;
+        }
+         .semaforo .pata {
+             height: 400px;
+             width: 30px;
+        }
+         .semaforo>div: :last-child{
+             width: 70%;
+             height: 30px;
+        }
+</style>
